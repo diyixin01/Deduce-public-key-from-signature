@@ -49,22 +49,62 @@
 
 
 
-# 代码说明
+# 代码函数说明
+# 判断二次（非）剩余
 
-# def Legendre(y,p): 
-判断二次（非）剩余
 
-# def Tonelli_Shanks(y,p):
-shanks算法
-# def extended_euclidean_algorithm(j, k):
-欧几里得求逆元
-# def elliptic_add(p, q):
-椭圆曲线加
-# def elliptic_multiply(s, p):
-椭圆曲线乘
-# def sign(private_key, message):
-私钥签名
+![image](https://user-images.githubusercontent.com/75195549/181209384-69c08201-a316-4741-9448-0d735799bee9.png)
+
+
+# 求解二次剩余
+
+
+![image](https://user-images.githubusercontent.com/75195549/181209545-3aeaa3c8-fe22-4096-bc05-843fd95cd389.png)
+
+
+
+# 求逆元
+
+
+![image](https://user-images.githubusercontent.com/75195549/181209931-dd278e2d-99ba-4791-af88-d454a49574a8.png)
+
+
+
+# 椭圆曲线参数
+
+
+
+![image](https://user-images.githubusercontent.com/75195549/181210012-c0d49129-c88a-4f9d-97e8-ea286f874bfd.png)
+
+
+
+
+# 椭圆曲线上的加法
+def add(P, Q): 
+# 椭圆曲线上的乘法
+def multi(P, Q): 
+
+
+# 生成公私钥对
+
+
+![image](https://user-images.githubusercontent.com/75195549/181210194-6d3174d8-efba-432e-b675-240fa966eb80.png)
+
+
+
+
+# 从签名反推出公钥
+
+
+![image](https://user-images.githubusercontent.com/75195549/181210257-e2aa2336-72dc-4488-9e7e-b94e6f3a208d.png)
+
+
+
+
 
 
 # 结果展示
+
+![image](https://user-images.githubusercontent.com/75195549/181208435-7f4c8aef-461f-435f-8a06-e43b1406b73a.png)
+
 
