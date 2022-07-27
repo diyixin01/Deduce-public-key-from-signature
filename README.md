@@ -53,13 +53,14 @@
 
 # def Legendre(y,p): 
 判断二次（非）剩余
-#def Tonelli_Shanks(y,p):
+
+# def Tonelli_Shanks(y,p):
 shanks算法
 # def extended_euclidean_algorithm(j, k):
 欧几里得求逆元
 # def elliptic_add(p, q):
 椭圆曲线加
-#def elliptic_multiply(s, p):
+# def elliptic_multiply(s, p):
 椭圆曲线乘
 # def sign(private_key, message):
 私钥签名
